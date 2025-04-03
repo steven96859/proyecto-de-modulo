@@ -1,0 +1,64 @@
+body {
+    background-image: url(../img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.dibujo {
+    background-color: #266828 ;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.dibujo_2 {
+    background-color:#46B74A ;
+    border-radius: 15px;
+}
+.dibujo_C {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around
+}
+.pizza {
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.pizza img {
+    width: 50px;
+    height: 50px;
+}
+.pizza_links {
+    border-radius: 15px;
+    background-color: white;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.chocolate {
+    background-color: #266828;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.chocolate_2 {
+    background-color: #46B74A;
+    margin: 1% 1% 1% 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.cacao{ 
+    display: flex;
+    justify-content: space-around;
+}
+.chocolate1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.chocolate2 {
+   color: #46B74A;
+}
