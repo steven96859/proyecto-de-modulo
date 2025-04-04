@@ -51,14 +51,34 @@ body {
     padding-right: 1%;
 }
 .cacao{ 
+    padding-top: 15px;
     display: flex;
     justify-content: space-around;
 }
 .chocolate1 {
     background-color: white;
+    padding-right: 25px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 .chocolate2 {
-   color: #46B74A;
+    padding-left: 25px;
+    color:black;
+}
+.nuez {
+    background-color: #266828;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.chocolate_Blanco {
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.chocolate_Blanco_oreo{
+    padding: 15px;
+    margin: 25px;
+    background-color: white;
 }
