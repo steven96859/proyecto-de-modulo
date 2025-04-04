@@ -4,6 +4,10 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
 .dibujo {
     background-color: #266828 ;
     margin-bottom: 5%;
@@ -18,6 +22,7 @@ body {
 .dibujo_C {
     background-color: white;
     border-radius: 15px;
+   
     display: flex;
     justify-content: space-around
 }
@@ -81,4 +86,94 @@ body {
     padding: 15px;
     margin: 25px;
     background-color: white;
+}
+@media (width <= 480px) {
+    .resolucion {
+        width: 99%;
+        text-align: center;
+    }
+    .dibujo {
+        background-color: #266828 ;
+        margin-bottom: 5%;
+        border-radius: 15px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+    }
+    .dibujo_2 {
+        background-color:#46B74A ;
+        border-radius: 15px;
+    }
+    .dibujo_C {
+        background-color: white;
+        border-radius: 15px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around
+    }
+    .pizza {
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .pizza img {
+        width: 50px;
+        height: 50px;
+    }
+    .pizza_links {
+        border-radius: 15px;
+        background-color: white;
+        padding: 1%;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .chocolate {
+        background-color: #266828;
+        color: white;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+    }
+    .chocolate_2 {
+        background-color: #46B74A;
+        margin: 1% 1% 1% 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .cacao{ 
+        padding-top: 15px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+    }
+    .chocolate1 {
+        background-color: white;
+        padding-right: 25px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .chocolate2 {
+        padding-left: 25px;
+        color:black;
+    }
+    .nuez {
+        background-color: #266828;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+    .chocolate_Blanco {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .chocolate_Blanco_oreo{
+        padding: 15px;
+        margin: 25px;
+        background-color: white;
+       
+    }
 }
